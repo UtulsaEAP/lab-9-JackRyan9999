@@ -1,6 +1,7 @@
 def swap_values(user_val1, user_val2, user_val3, user_val4):   
    #write your code here
-   
+   user_val1, user_val2 = user_val2, user_val1
+   user_val3, user_val4 = user_val4, user_val3
    return user_val1, user_val2, user_val3, user_val4
 
 if __name__ == '__main__':   
@@ -11,4 +12,6 @@ if __name__ == '__main__':
    #store output for every input here
    #print those output
 
- 
+   swapped1, swapped2, swapped3, swapped4 =  swap_values(user_input1, user_input2, user_input3, user_input4)
+
+   print(swapped1, swapped2, swapped3, swapped4) 
